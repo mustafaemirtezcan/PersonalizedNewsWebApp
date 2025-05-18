@@ -42,7 +42,7 @@ Note: Replace [PORT] with the port number you've defined in your .env file (e.g.
 
 ### How to Use?
 #### 1. You can access the homepage, view trending and category-based news (e.g., Technology, Health), and click news cards to visit full articles - all **without logging in**.
-
+![Homepage Screenshot](./guide-images/)
 
 #### 2. Clicking the **360 degree animated app logo** at the top-left corner of any page will navigate you back to the homepage.
 
