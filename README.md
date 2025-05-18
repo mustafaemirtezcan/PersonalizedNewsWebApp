@@ -41,20 +41,24 @@ http://localhost:[PORT]
 Note: Replace [PORT] with the port number you've defined in your .env file (e.g., 3000,3001 etc.).
 
 ### How to Use?
-#### 1. You can access the homepage, view trending and category-based news (e.g., Technology, Health), and click news cards to visit full articles - all **without logging in**.
-![Category Buttons](./guide-images/news-categories)
+   #### 1. You can access the homepage, view trending and category-based news (e.g., Science, Health), and click news cards to visit full articles - all **without logging in**.
+![Category Buttons](./guide-images/news-categories.png)
 
-#### 2. Clicking the **360 degree animated app logo** at the top-left corner of any page will navigate you back to the homepage.
-
+#### 2. Clicking the **360 degree animated app logo** at the top-left corner of any page will navigate you back to the homepage.  
+![Homepage Button](./guide-images/homepage_logo.png)
 #### 3. If you are not logged in, you can register or log in using the **Login** and **Register** buttons available on every page.  
-   > Note: **Usernames must be unique** during registration.
-
+   > Note: **Usernames must be unique** during registration.  
+![Log Buttons](./guide-images/log_buttons.png)
 #### 4. Once logged in, a new button will appear: **"Personalized News Feed Portal"**.  
-   Clicking this will take you to your customizable news portal.
-
+   Clicking this will take you to your customizable news portal.  
+![Portal Button](./guide-images/news_portal.png)
 #### 5. To log out, click the log out button displaying your username located in the top-right corner of the screen.
+![Log Out Button](./guide-images/log_out.png)
 
 #### 6. In the Personalized News Feed page, you can:
    - Click the **"Show Preferences"** button to select your preferred news categories.
    - View personalized news based on selected preferences.
-   - Click the **"Save"** button to store your preferences in the database for future visits.
+   - Click the **"Save"** button to store your preferences in the database for future visits.  
+![Preferences](./guide-images/preferences.png)
+![Show Button](./guide-images/show_preferences.png)
+
