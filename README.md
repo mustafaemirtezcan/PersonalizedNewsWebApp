@@ -18,3 +18,5 @@ API_URL_1=your_mongodb_connection_string
 JWT_KEY=your_jwt_secret_key
 PORT=your_preferred_port_number  # e.g., 3000
 ```
+### Running the Application
+# 1. Start the Backend (Node.js):
