@@ -59,6 +59,6 @@ Note: Replace [PORT] with the port number you've defined in your .env file (e.g.
    - Click the **"Show Preferences"** button to select your preferred news categories.
    - View personalized news based on selected preferences.
    - Click the **"Save"** button to store your preferences in the database for future visits.  
+![Show Button](./guide-images/show_preferences.png)  
 ![Preferences](./guide-images/preferences.png)
-![Show Button](./guide-images/show_preferences.png)
 
