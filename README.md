@@ -17,7 +17,7 @@ These credentials should be added to the `.env` file created in the `backend/` d
 API_KEY_1=your_newsapi_key
 API_URL_1=your_mongodb_connection_string
 JWT_KEY=your_jwt_secret_key (random strong key)
-PORT=your_preferred_port_number  # e.g., 3000
+PORT=your_preferred_port_number  # e.g., 3000 (preferably 3005)
 ```
 > Note: Don't forget to change the <db_password> part in the MongoDB URL with your MongoDB password on the database section of website.
 ### Running the Application
