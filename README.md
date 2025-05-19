@@ -53,7 +53,7 @@ Note: Replace [PORT] with the port number you've defined in your .env file (e.g.
    Clicking this will take you to your customizable news portal.  
 ![Portal Button](./guide-images/news_portal.png)
 #### 5. To log out, click the log out button displaying your username located in the top-right corner of the screen.
-![Log Out Button](./guide-images/log_out.png)
+![Log Out Button](./guide-images/log-out.png)
 
 #### 6. In the Personalized News Feed page, you can:
    - Click the **"Show Preferences"** button to select your preferred news categories.
