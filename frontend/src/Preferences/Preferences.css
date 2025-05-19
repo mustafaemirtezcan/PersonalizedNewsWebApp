@@ -1,0 +1,45 @@
+.preferences {
+    background-color: orange;
+    border-radius: 10px;
+    text-align: left;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+}
+
+.preferences h2 {
+    font-size: 1rem;
+    margin-bottom: 1px;
+}
+.preferences p {
+    text-align: left;
+    font-size: 1rem;
+}
+
+.preferences ul {
+    list-style: none;
+    padding: 0;
+}
+
+.preferences li {
+    margin-bottom: 1px;
+}
+
+.preferences label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.preferences-button {
+    text-align: left;
+    display: block;
+    margin-left: 0;
+    margin-top: 40px;
+    color: orange;
+    transition: background 0.2s, color 0.2s;
+}
+.preferences-button:hover {
+    background: orange;
+    color: black;
+    cursor: pointer;
+}

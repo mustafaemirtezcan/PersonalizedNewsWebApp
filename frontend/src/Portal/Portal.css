@@ -1,0 +1,168 @@
+.App-logo {
+    height: 15vmin;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.portal {
+    text-align: center;
+    padding: 20px;
+    background-color: darkslategray;
+}
+
+.portal h1 {
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+.portal h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.portal h3{
+    color: black;
+    font-size: 1rem;
+}
+.portal p {
+    font-size: 1.2rem;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.portal.empty p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.portal.last p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.portal a {
+    display: inline-block;
+    text-decoration: none;
+}
+.buttons {
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 20px 10px 50px;
+    background-color: black;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    transition: background-color 0.3s ease;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 30px 30px;;
+}
+.button.economy {
+    background-image: url("../images/economy.png");
+}
+.button.sport {
+    background-image: url("../images/sport.png");
+}
+.button.science {
+    background-image: url("../images/science.png");
+}
+.button.technology {
+    background-image: url("../images/technology.png");
+}
+.button.health {
+    background-image: url("../images/health.png");
+}
+.button.portal {
+    background-image: url("../images/portal.png");
+    background-size: 60px 60px;
+    background-position: center;
+    height: 42px;
+    width: 35px;
+    position: relative;
+    top: 22px;
+}
+.button.log {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+.button.portal-logout {
+    margin: 5px;
+    padding: 10px 50px 10px 10px;
+    background-image: url("../images/logout.png");
+    background-position: right;
+    position: relative;
+    left: 50px;
+    top: -10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button.log:hover {
+    background-color: black;
+    color: orange;
+}
+
+.button:hover {
+    background-color: orange;
+    color: black;
+}
+.portal.sport .button.sport {
+    background-color: orange;
+    color: black;
+}
+.portal.economy .button.economy {
+    background-color: orange;
+    color: black;
+}
+.portal.science .button.science {
+    background-color: orange;
+    color: black;
+}
+.portal.technology .button.technology {
+    background-color: orange;
+    color: black;
+}
+.portal.health .button.health {
+    background-color: orange;
+    color: black;
+}
+.news-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
