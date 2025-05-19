@@ -4,13 +4,14 @@ This is a customizable news feed web application. Users can personalize their ne
 The application integrates the News API as its news source. The frontend is developed using React, while the backend is built with Node.js. MongoDB is used as the user database. User registration, authentication, and API integrations are implemented .
 
 This web application features a clean and modern interface and offers a user-friendly experience with a focus on user interaction.
+![Application Image](./guide-images/app-image.png)
 ## Project User Guide 
 ### Getting Started
 To run the web application locally, you will need:
 - A **MongoDB** account with a valid **database connection URL** [MongoDB](https://www.mongodb.com/)
 - An **API key** from [News API](https://newsapi.org/)
 
-These credentials should be added to the `.env` file located inside the `backend/` directory. Make sure to define the necessary variables such as:
+These credentials should be added to the `.env` file created in the `backend/` directory. Make sure to define the necessary variables as follows:
 
 ```env
 API_KEY_1=your_newsapi_key
@@ -18,6 +19,7 @@ API_URL_1=your_mongodb_connection_string
 JWT_KEY=your_jwt_secret_key (random strong key)
 PORT=your_preferred_port_number  # e.g., 3000
 ```
+> Note: Don't forget to change the <db_password> part in the MongoDB URL with your MongoDB password on the database section of website.
 ### Running the Application
 #### 1. Start the Backend (Node.js)
 Navigate to the `backend` directory, install the dependencies, and start the server:
@@ -59,6 +61,6 @@ Note: Replace [PORT] with the port number you've defined in your .env file (e.g.
    - Click the **"Show Preferences"** button to select your preferred news categories.
    - View personalized news based on selected preferences.
    - Click the **"Save"** button to store your preferences in the database for future visits.  
-![Show Button](./guide-images/show_preferences.png)  
-![Preferences](./guide-images/preferences.png)
+![Personalized News Feed Page](./guide-images/personalized_portal.png)  
+
 
