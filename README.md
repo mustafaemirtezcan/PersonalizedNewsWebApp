@@ -15,7 +15,7 @@ These credentials should be added to the `.env` file located inside the `backend
 ```env
 API_KEY_1=your_newsapi_key
 API_URL_1=your_mongodb_connection_string
-JWT_KEY=your_jwt_secret_key
+JWT_KEY=your_jwt_secret_key (random strong key)
 PORT=your_preferred_port_number  # e.g., 3000
 ```
 ### Running the Application
