@@ -38,9 +38,9 @@ npm start
 #### 3. Access the Application
 Once the frontend is started, your default browser should open automatically. If not, you can manually access the application by visiting:
 ```
-http://localhost:[PORT]
+http://localhost:3000
 ```
-Note: Replace [PORT] with the port number you've defined in your .env file (e.g., 3000,3001 etc.).
+> Note: The port value can exceed 3000 (e.g., 3001, 3002) depending on port availability. After running the frontend, you can check the terminal output to determine the assigned port value.
 
 ### How to Use?
    #### 1. You can access the homepage, view trending and category-based news (e.g., Science, Health), and click news cards to visit full articles - all **without logging in**.
